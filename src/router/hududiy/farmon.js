@@ -30,7 +30,9 @@ function farmon() {
                       <span>+998 94-296-08-93</span></p>
               </div>
               <div class="head-top-link">
-                  <a href="https://t.me/BMSM19"><img src={Telegram} alt=""></img></a>
+                <Link className='link' to={'https://t.me/BMSM19'}>
+                  <a><img src={Telegram} alt=""></img></a>
+                </Link>
               </div>
           </div>
           <div class="navbar">
