@@ -43,9 +43,9 @@ function home() {
             </div>
             <div class="navbar">
                 <Link className='link' to={'/asosiy'}>
-                    <a href="#">Asosiy ma'lumotlar</a>
+                    <a href="">Asosiy ma'lumotlar</a>
                 </Link>
-                <a href="#">Me'yoriy-huquqiy hujjatlar
+                <a href="">Me'yoriy-huquqiy hujjatlar
                     <ul className='collaction'>
                         <Link className='link li' to={'/kons'}>
                         <li> O'zbekiston Respublikasi Konstitutsiyasi</li>
@@ -68,7 +68,7 @@ function home() {
 
                     </ul>
                 </a>
-                <a href="#">BMSM to‘g‘risida ma’lumotlar
+                <a href="">BMSM to‘g‘risida ma’lumotlar
                     <ul className='collaction'>
                         <Link className='link' to={'/maktab'}>
                             <li>Maktab rahbaryati</li>
@@ -97,7 +97,7 @@ function home() {
 
                     </ul>
                 </a>
-                <a href="#">O'quv jarayoni
+                <a href="">O'quv jarayoni
                     <ul className='collaction'>
                         <Link className='link' to={'https://zarkentbmsm.uz/PDFlar/34_BMSM_Ish_rejasi.pdf'}>
                         <li>BMSM o'quv ish rejasi</li>
@@ -121,10 +121,10 @@ function home() {
                     </ul>
                 </a>
                 <Link className='link' to={'/galary'}>
-                    <a href="#">Maktab galereyasi</a>
+                    <a href="">Maktab galereyasi</a>
                 </Link>
                 <Link className='link' to={'/aloqa'}>
-                    <a href="#">Aloqa</a>
+                    <a href="">Aloqa</a>
                 </Link>
             </div>
         </div>
@@ -132,29 +132,29 @@ function home() {
             <div class="area-top">
                 
                 <div class="area-top-content">
-                    <a href="#"><img src={HeadOne} alt="area"></img></a>
-                    <a href="#"><img src={HeadTwo} alt="area"></img></a>
-                    <a href="#"><img src={HeadThree} alt="area"></img></a>
-                    <a href="#"><img src={HeadFour} alt="area"></img></a>
-                    <a href="#"><img src={HeadFive} alt="area"></img></a>
+                    <a href=""><img src={HeadOne} alt="area"></img></a>
+                    <a href=""><img src={HeadTwo} alt="area"></img></a>
+                    <a href=""><img src={HeadThree} alt="area"></img></a>
+                    <a href=""><img src={HeadFour} alt="area"></img></a>
+                    <a href=""><img src={HeadFive} alt="area"></img></a>
                 </div>
                
             </div>
         </div>
         <div class="wrapper">
             <div class="wrapper-left-link">
-                <a href="#">BMSM directorining taqdimoti</a>
-                <a href="#">Maktab ko'rsatkichlari</a>
-                <a href="#">O'quvchilar uchun</a>
-                <a href="#">O'quvchilar havfsizligi</a>
-                <a href="#">Hamkorlik Memorandumlari</a>
-                <a href="#">Mehnat Muhofazasi</a>
-                <a href="#">Ota-onalar, Sizlar uchun!</a>
-                <a href="#">Bizning yutuqlar</a>
-                <a href="#">Bo'sh ish o'rinlari</a>
-                <a href="#">Musiqa va san'at olamida</a>
-                <a href="#">Ma'naviyat va Ma'rifat</a>
-                <a href="#">Virtual Qabulxona</a>
+                <a href="">BMSM directorining taqdimoti</a>
+                <a href="">Maktab ko'rsatkichlari</a>
+                <a href="">O'quvchilar uchun</a>
+                <a href="">O'quvchilar havfsizligi</a>
+                <a href="">Hamkorlik Memorandumlari</a>
+                <a href="">Mehnat Muhofazasi</a>
+                <a href="">Ota-onalar, Sizlar uchun!</a>
+                <a href="">Bizning yutuqlar</a>
+                <a href="">Bo'sh ish o'rinlari</a>
+                <a href="">Musiqa va san'at olamida</a>
+                <a href="">Ma'naviyat va Ma'rifat</a>
+                <a href="">Virtual Qabulxona</a>
             </div>
             <div class="wrapper-right-content">
                 <div class="wrapper-right-first-box">
@@ -179,7 +179,7 @@ function home() {
 Bolalar musiqa va san'at maktabida o'qishning asosiy vazifasi o'quvchilarni badiiy madaniyatga jalb qilish, ularning tasviriy savodxonlik asoslarini o'rgatish, ularning estetik ta'limini tarbiyalash, shuningdek, o'rta maxsus ta'lim muassasalarida badiiy ta'limni davom ettirish uchun eng iqtidorli o'quvchilarni aniqlashdir.
 
                             </p>
-                            <a href="#">Batafsil</a>
+                            <a href="">Batafsil</a>
                         </div>
                     </div>
                 </div>
@@ -202,7 +202,7 @@ Bolalar musiqa va san'at maktabida o'qishning asosiy vazifasi o'quvchilarni badi
 Мазкур дастур ўқувчиларнинг истеъдодини, маданий савиясини, ижрочилик маҳоратларини, эшитиш қобилиятини ҳар томонлама ривожлантириш билан бирга бадиий дидини шакллантириш ва дунёқарашини кенгайтириш, бўлғуси актёрда саҳнавий кўникмалар ва театр санъати тамойилларини шакллантириш, ижрочилик куртакларини парваришлаш, ижодкорлик салоҳиятини  вояга етказиш  каби мақсадларни ўз олдига қўяди. 
 
                                 </p>
-                                <a href="#">Batafsil</a>
+                                <a href="">Batafsil</a>
                             </div>
                         </div>
                         </div>
@@ -224,7 +224,7 @@ Bolalar musiqa va san'at maktabida o'qishning asosiy vazifasi o'quvchilarni badi
                                 <p>
                                 Театрда бадиий образ яратиш, қаҳрамон хатти-ҳаракатлари, хис-туйғуларини томошабинга етказишда “Саҳна нутқи” асосий ифода воситаларидан бири. “Саҳна нутқи" фани тўғри нафас олиш, ўқувчи овоз марказини шакллантириш, орфоэпия нормаларига амал қилиш бадиий адабиётни ўрганиш, оғзаки нутқнинг мантиқий-интонацион кўникмаларини ўзлаштиришни ҳамда аниқ ва равон талаффузни қамраб олади. 
                                 </p>
-                                <a href="#">Batafsil</a>
+                                <a href="">Batafsil</a>
                             </div>
                         </div>
                         </div>
@@ -244,7 +244,7 @@ Bolalar musiqa va san'at maktabida o'qishning asosiy vazifasi o'quvchilarni badi
                 <div class="first-body-calendar-main">
                     <div class="calendar-main-first">
                         <div class="calendar-heading">
-                            <h2><a href="#">Mart 2023</a></h2>
+                            <h2><a href="">Mart 2023</a></h2>
                         </div>
                         <div class="calendar-body">
                             <div class="calendar-week">
@@ -301,28 +301,28 @@ Bolalar musiqa va san'at maktabida o'qishning asosiy vazifasi o'quvchilarni badi
                         </div>
                         <div class="calendar-work-link">
                             <p><span>15.03.2023</span><span>10:00</span></p>
-                            <a href="#">Fortepiano bo'limida “Etyud ustida ishlash” mavzusida <br></br> uslubiy ma'ruza.</a>
+                            <a href="">Fortepiano bo'limida “Etyud ustida ishlash” mavzusida <br></br> uslubiy ma'ruza.</a>
                         </div>
                         <div class="calendar-work-link">
                             <p><span>15.03.2023</span><span>10:00</span></p>
-                            <a href="#">“Navro'z” bayramiga bag'ishlangan katta konsert <br></br> dasturi</a>
+                            <a href="">“Navro'z” bayramiga bag'ishlangan katta konsert <br></br> dasturi</a>
                         </div>
                         <div class="calendar-work-link">
                             <p><span>15.03.2023</span><span>10:00</span></p>
-                            <a href="#">An'anaviy xonandalik sinfida “Ustoz - shogird <br></br> an'analari” sinf konserti</a>
+                            <a href="">An'anaviy xonandalik sinfida “Ustoz - shogird <br></br> an'analari” sinf konserti</a>
                         </div>
                         <div class="calendar-work-link">
                             <p><span>15.03.2023</span><span>10:00</span></p>
-                            <a href="#">Madaniyat va san'at kuniga bag'ishlangan tadbir</a>
+                            <a href="">Madaniyat va san'at kuniga bag'ishlangan tadbir</a>
                         </div>
                     </div>
                 </div>
                 <div className="first-body-content-main">
-                    <a href="#"><img src={Jadval} alt="jadval"></img></a>
-                    <a href="#"><img src={Afisha} alt="afisha"></img></a>
+                    <a href=""><img src={Jadval} alt="jadval"></img></a>
+                    <a href=""><img src={Afisha} alt="afisha"></img></a>
                 </div>
                 <div className="first-body-last-main">
-                    <a href="#"><img src={Navroz} alt="Navro'z"></img></a>
+                    <a href=""><img src={Navroz} alt="Navro'z"></img></a>
                 </div>
             </div>
         </div>
@@ -332,19 +332,19 @@ Bolalar musiqa va san'at maktabida o'qishning asosiy vazifasi o'quvchilarni badi
         </div>
         <div className="footer-links">
             <div className="footer-links-hav">
-                <a href="#">BMSM to'g'risida</a>
-                <a href="#">Aloqa</a>
-                <a href="#">Sayt xaritasi</a>
+                <a href="">BMSM to'g'risida</a>
+                <a href="">Aloqa</a>
+                <a href="">Sayt xaritasi</a>
             </div>
             <div className="footer-links-hav">
-                <a href="#">O'zbekiston Respublikasi madaniyat vazirligi</a>
-                <a href="#">O'zbekiston Respublikasi badiiy akademiyasi</a>
-                <a href="#">O'zbekiston Davlat Konservatoriyasi</a>
+                <a href="">O'zbekiston Respublikasi madaniyat vazirligi</a>
+                <a href="">O'zbekiston Respublikasi badiiy akademiyasi</a>
+                <a href="">O'zbekiston Davlat Konservatoriyasi</a>
             </div>
             <div className="footer-links-hav">
-                <a href="#">O'zbekiston Davlat san'at va madaniyat instituti</a>
-                <a href="#">LexUZ qonunchilik ma'lumotlari milliy bazasi</a>
-                <a href="#">O'zbekiston madaniyati yangiliklari</a>
+                <a href="">O'zbekiston Davlat san'at va madaniyat instituti</a>
+                <a href="">LexUZ qonunchilik ma'lumotlari milliy bazasi</a>
+                <a href="">O'zbekiston madaniyati yangiliklari</a>
             </div>
         </div>
         <div className="footer-end">

@@ -35,9 +35,9 @@ function Aloqa() {
           </div>
           <div class="navbar">
           <Link className='link' to={'/asosiy'}>
-                    <a href="#">Asosiy ma'lumotlar</a>
+                    <a href="">Asosiy ma'lumotlar</a>
                 </Link>
-              <a href="#">Me'yoriy-huquqiy hujjatlar
+              <a href="">Me'yoriy-huquqiy hujjatlar
                   <ul className='collaction'>
                       <Link className='link li' to={'/kons'}>
                       <li> O'zbekiston Respublikasi Konstitutsiyasi</li>
@@ -60,7 +60,7 @@ function Aloqa() {
 
                   </ul>
               </a>
-              <a href="#">BMSM to‘g‘risida ma’lumotlar
+              <a href="">BMSM to‘g‘risida ma’lumotlar
               <ul className='collaction'>
                         <Link className='link' to={'/maktab'}>
                             <li>Maktab rahbaryati</li>
@@ -89,7 +89,7 @@ function Aloqa() {
 
                     </ul>
               </a>
-              <a href="#">O'quv jarayoni
+              <a href="">O'quv jarayoni
               <ul className='collaction'>
                         <Link className='link' to={'https://zarkentbmsm.uz/PDFlar/34_BMSM_Ish_rejasi.pdf'}>
                         <li>BMSM o'quv ish rejasi</li>
@@ -112,8 +112,8 @@ function Aloqa() {
 
                     </ul>
               </a>
-              <a href="#">Maktab galereyasi</a>
-              <a href="#">Aloqa</a>
+              <a href="">Maktab galereyasi</a>
+              <a href="">Aloqa</a>
           </div>
       </div>
       <Link className='link' to={'/'}>
@@ -178,19 +178,19 @@ function Aloqa() {
       </div>
       <div className="footer-links">
           <div className="footer-links-hav">
-              <a href="#">BMSM to'g'risida</a>
-              <a href="#">Aloqa</a>
-              <a href="#">Sayt xaritasi</a>
+              <a href="">BMSM to'g'risida</a>
+              <a href="">Aloqa</a>
+              <a href="">Sayt xaritasi</a>
           </div>
           <div className="footer-links-hav">
-              <a href="#">O'zbekiston Respublikasi madaniyat vazirligi</a>
-              <a href="#">O'zbekiston Respublikasi badiiy akademiyasi</a>
-              <a href="#">O'zbekiston Davlat Konservatoriyasi</a>
+              <a href="">O'zbekiston Respublikasi madaniyat vazirligi</a>
+              <a href="">O'zbekiston Respublikasi badiiy akademiyasi</a>
+              <a href="">O'zbekiston Davlat Konservatoriyasi</a>
           </div>
           <div className="footer-links-hav">
-              <a href="#">O'zbekiston Davlat san'at va madaniyat instituti</a>
-              <a href="#">LexUZ qonunchilik ma'lumotlari milliy bazasi</a>
-              <a href="#">O'zbekiston madaniyati yangiliklari</a>
+              <a href="">O'zbekiston Davlat san'at va madaniyat instituti</a>
+              <a href="">LexUZ qonunchilik ma'lumotlari milliy bazasi</a>
+              <a href="">O'zbekiston madaniyati yangiliklari</a>
           </div>
       </div>
       <div className="footer-end">

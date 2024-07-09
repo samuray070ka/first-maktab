@@ -3,14 +3,6 @@ import './home.css'
 import {Link} from 'react-router-dom'
 import Logo from '../assets/music-note-clip-art-transparent-background-21.png'
 import Telegram from '../assets/icons8-telegram-app-48.png'
-import HeadOne from '../assets/head-img-0.jpg'
-import HeadFive from '../assets/head-img-1.jpg'
-import HeadTwo from '../assets/head-img-2.jpg'
-import HeadThree from '../assets/head-img-3.jpg'
-import HeadFour from '../assets/head-img-4.jpg'
-import Jadval from '../assets/Darslar_jadvali...jpg'
-import Afisha from '../assets/Maktab_afishasi..jpg'
-import Navroz from '../assets/Afisha_Tanlov_Navruz...jpg'
 function Asosiy() {
   return (
      <div className=' section'>
@@ -42,8 +34,8 @@ function Asosiy() {
                 </div>
             </div>
             <div class="navbar">
-                <a href="#">Asosiy ma'lumotlar</a>
-                <a href="#">Me'yoriy-huquqiy hujjatlar
+                <a href="">Asosiy ma'lumotlar</a>
+                <a href="">Me'yoriy-huquqiy hujjatlar
                     <ul className='collaction'>
                         <Link className='link li' to={'/kons'}>
                         <li> O'zbekiston Respublikasi Konstitutsiyasi</li>
@@ -66,7 +58,7 @@ function Asosiy() {
 
                     </ul>
                 </a>
-                <a href="#">BMSM to‘g‘risida ma’lumotlar
+                <a href="">BMSM to‘g‘risida ma’lumotlar
                 <ul className='collaction'>
                         <Link className='link' to={'/maktab'}>
                             <li>Maktab rahbaryati</li>
@@ -95,7 +87,7 @@ function Asosiy() {
 
                     </ul>
                 </a>
-                <a href="#">O'quv jarayoni
+                <a href="">O'quv jarayoni
                     <ul>
                         <li>BMSM o'quv ish rejasi</li>
                         <li>Ochiq darslar jadvali</li>
@@ -106,8 +98,8 @@ function Asosiy() {
                         <li>Viloyat o'quv-amaliy seminarlari jadvali</li>
                     </ul>
                 </a>
-                <a href="#">Maktab galereyasi</a>
-                <a href="#">Aloqa</a>
+                <a href="">Maktab galereyasi</a>
+                <a href="">Aloqa</a>
             </div>
         </div>
         <Link className='link' to={'/'}>
@@ -170,19 +162,19 @@ function Asosiy() {
         </div>
         <div className="footer-links">
             <div className="footer-links-hav">
-                <a href="#">BMSM to'g'risida</a>
-                <a href="#">Aloqa</a>
-                <a href="#">Sayt xaritasi</a>
+                <a href="">BMSM to'g'risida</a>
+                <a href="">Aloqa</a>
+                <a href="">Sayt xaritasi</a>
             </div>
             <div className="footer-links-hav">
-                <a href="#">O'zbekiston Respublikasi madaniyat vazirligi</a>
-                <a href="#">O'zbekiston Respublikasi badiiy akademiyasi</a>
-                <a href="#">O'zbekiston Davlat Konservatoriyasi</a>
+                <a href="">O'zbekiston Respublikasi madaniyat vazirligi</a>
+                <a href="">O'zbekiston Respublikasi badiiy akademiyasi</a>
+                <a href="">O'zbekiston Davlat Konservatoriyasi</a>
             </div>
             <div className="footer-links-hav">
-                <a href="#">O'zbekiston Davlat san'at va madaniyat instituti</a>
-                <a href="#">LexUZ qonunchilik ma'lumotlari milliy bazasi</a>
-                <a href="#">O'zbekiston madaniyati yangiliklari</a>
+                <a href="">O'zbekiston Davlat san'at va madaniyat instituti</a>
+                <a href="">LexUZ qonunchilik ma'lumotlari milliy bazasi</a>
+                <a href="">O'zbekiston madaniyati yangiliklari</a>
             </div>
         </div>
         <div className="footer-end">
