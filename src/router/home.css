@@ -960,3 +960,34 @@ th {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.silider_container{
+    box-shadow: 0 0 2px #0008;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: .1s;
+}
+.silider_container:hover{
+    cursor: pointer;
+    border-radius: 6px;
+    outline: 3px solid #268382;
+    box-shadow: none;
+    /* background: linear-gradient(45deg, #33a7b5, #268382, #33a7b5); */
+    /* background:linear-gradient(45deg, #eee, #fff, #eee); */
+}
+.silider_box{
+    padding: 20px;
+    width: 100%;
+}
+.silider_img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.silider_title{
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.silider_desc{
+    font-size: 14px;
+}

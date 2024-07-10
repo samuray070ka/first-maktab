@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './home.css'
 import {Link} from 'react-router-dom'
 import Logo from '../assets/music-note-clip-art-transparent-background-21.png'
@@ -11,7 +11,23 @@ import HeadFour from '../assets/head-img-4.jpg'
 import Jadval from '../assets/Darslar_jadvali...jpg'
 import Afisha from '../assets/Maktab_afishasi..jpg'
 import Navroz from '../assets/Afisha_Tanlov_Navruz...jpg'
-function home() {
+function Home() {
+    async function fetchSilider() {
+        const response = await fetch('https://parsingbot.pythonanywhere.com/');
+        const data = await response.json();
+        return data;
+    }
+    const [silider, setSilider] = useState([]);
+    
+    useEffect(() => {
+        async function getData() {
+            const result = await fetchSilider();
+            setSilider(result);
+        }
+        
+        getData();
+        console.log(silider);
+    }, []);
   return (
     <div className='section'>
             <div class="header">
@@ -161,74 +177,18 @@ function home() {
                     <div class="wr-ri-first-box-title">
                         <h1>Maktab yangiliklari</h1>
                     </div>
-                    <div class="wr-ri-first-box-wrap">
-
-                        <div class="big">
-                            <div class="box-top">
-                                <h2>20</h2>
+                    {
+                        silider.map((item, inx) => (
+                            <div className='silider_container' key={inx}>
+                                <div className={`silider_box ${!item.file ? 'no-image' : ''}`}>
+                                    {item.file && <img className='silider_img' src={item.file} alt="" />}
+                                    <h3 className='silider_title'>{item.title}</h3>
+                                    <p className='silider_desc'>{item.description}</p>
+                                </div>
                             </div>
-                            <div class="box">
-                                <h2 class="h22w">may</h2>
-                            </div>
-                        </div>
-                        
-                        <div class="    wr-ri-first-box-wrap-text">
-                            <p>
-                            Ushbu o'quv dasturi 2015-yil 20-avgustdan boshlab O`zb.Res. Xalq ta'limi vazirligining 15-son (2 ilova) buyrug`i asosida tasdiqlangan.
-                            Bolalar musiqa va san'at maktabi umumta'lim maktabi bilan yaqin aloqada bo'lib, barkamol shaxsni tarbiyalashga yordam beradi.
-Bolalar musiqa va san'at maktabida o'qishning asosiy vazifasi o'quvchilarni badiiy madaniyatga jalb qilish, ularning tasviriy savodxonlik asoslarini o'rgatish, ularning estetik ta'limini tarbiyalash, shuningdek, o'rta maxsus ta'lim muassasalarida badiiy ta'limni davom ettirish uchun eng iqtidorli o'quvchilarni aniqlashdir.
-
-                            </p>
-                            <a href="">Batafsil</a>
-                        </div>
-                    </div>
+                        ))
+                    }
                 </div>
-                <div class="wrapper-right-first-box mt">
-                    <div class="wr-ri-first-box-wrap">
-                        <div class="wr-ri-first-box-wrap">
-
-                            <div class="big">
-                                <div class="box-top">
-                                    <h2>20</h2>
-                                </div>
-                                <div class="box">
-                                    <h2 class="h22w">may</h2>
-                                </div>
-                            </div>
-                            
-                            <div class="    wr-ri-first-box-wrap-text">
-                                <p>
-                                Ушбу ўқув дастури болалар мусиқа ва санъат мактабларининг Давлат талаблари асосида  «Театр санъати» йўналишининг Актёрлик маҳорати фани бўйича ўқитишининг мақсад ва вазифаларини, мазмун-моҳиятини белгилайди.
-Мазкур дастур ўқувчиларнинг истеъдодини, маданий савиясини, ижрочилик маҳоратларини, эшитиш қобилиятини ҳар томонлама ривожлантириш билан бирга бадиий дидини шакллантириш ва дунёқарашини кенгайтириш, бўлғуси актёрда саҳнавий кўникмалар ва театр санъати тамойилларини шакллантириш, ижрочилик куртакларини парваришлаш, ижодкорлик салоҳиятини  вояга етказиш  каби мақсадларни ўз олдига қўяди. 
-
-                                </p>
-                                <a href="">Batafsil</a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                <div class="wrapper-right-first-box mt">
-                    <div class="wr-ri-first-box-wrap">
-                        <div class="wr-ri-first-box-wrap">
-
-                            <div class="big">
-                                <div class="box-top">
-                                    <h2>20</h2>
-                                </div>
-                                <div class="box">
-                                    <h2 class="h22w">may</h2>
-                                </div>
-                            </div>
-                            
-                            <div class="    wr-ri-first-box-wrap-text">
-                                <p>
-                                Театрда бадиий образ яратиш, қаҳрамон хатти-ҳаракатлари, хис-туйғуларини томошабинга етказишда “Саҳна нутқи” асосий ифода воситаларидан бири. “Саҳна нутқи" фани тўғри нафас олиш, ўқувчи овоз марказини шакллантириш, орфоэпия нормаларига амал қилиш бадиий адабиётни ўрганиш, оғзаки нутқнинг мантиқий-интонацион кўникмаларини ўзлаштиришни ҳамда аниқ ва равон талаффузни қамраб олади. 
-                                </p>
-                                <a href="">Batafsil</a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         <div class="first-section-main">
@@ -358,4 +318,4 @@ Bolalar musiqa va san'at maktabida o'qishning asosiy vazifasi o'quvchilarni badi
   )
 }
 
-export default home
+export default Home

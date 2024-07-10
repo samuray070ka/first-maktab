@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './router/home'
+import Home from './router/Home'
 import Kons from'./router/hududiy/kons'
 import Farmon from'./router/hududiy/farmon'
 import Hujjat from'./router/hududiy/hujjat'
