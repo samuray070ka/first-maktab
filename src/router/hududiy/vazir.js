@@ -15,17 +15,13 @@ function vazir() {
                   <img class="logo" src={Logo} alt="logo-header"></img>
               </div>
               <div class="head-top-title">
-                  <h1>O‘ZBEKISTON RESPUBLIKASI
-                      MADANIYAT VAZIRLIGI
-                      QASHQADARYO VILOYATI
-                      MADANIYAT BOSHQARMASI
-                      <br></br>
-                      MIRISHKOR TUMANI
-                      19-SON BOLALAR MUSIQA VA SAN'AT MAKTABI
-                  </h1>
-                  <p>
-                      Qashqadaryo viloyati Mirishkor tumani Pomuq shaharchasi. KOtaniyozov ko‘chasi 6 uy
-                  </p>
+              <h1>O‘ZBEKISTON RESPUBLIKASI
+                        MADANIYAT VAZIRLIGI
+                        Toshkent shahar Madaniyat boshqarmasi tasarrufidagi Mirzo Ulug’bek tumani 2-sonli bolalar musiqa va san’at maktabi
+                    </h1>
+                    <p>
+                    Toshkent shahar, Mirzo Ulug’bek tumani, Sayram MFY, Sayram ko’chasi 19-uy
+                    </p>
                   <p class="tel">Tel: <span>+998 99-948-99-63</span>
                       <span>+998 95-150-00-81</span>
                       <span>+998 94-296-08-93</span></p>
