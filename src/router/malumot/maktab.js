@@ -1,12 +1,11 @@
 import React from 'react'
 import '../home.css'
 import {Link} from 'react-router-dom'
-import SmallImgOne from '../../assets/emp2.png'
-import SmallImgSecond from '../../assets/emp3.png'
-import SmallImgThree from '../../assets/emp2.png'
+import SmallImgOne from '../../assets/birincgi.png'
+import SmallImgSecond from '../../assets/ikkinchi.png'
+import SmallImgThree from '../../assets/uchinchi.png'
 import Logo from '../../assets/music-note-clip-art-transparent-background-21.png'
 import Telegram from '../../assets/icons8-telegram-app-48.png'
-import SmallImgFour from '../../assets/emp4.png'
 function maktab() {
   return (
     <div className='section'>
@@ -129,12 +128,12 @@ function maktab() {
                     <img className='img_small' src={SmallImgOne} alt="" />
                </div>
                 <div className='small_text'>
-                    <h2>Raxmonov <br />
-                    Umidjon Ibroxim o‘g‘li</h2>
-                    <h3>34-sonli bolalar musiqa va san’at maktabi direktori</h3>
-                    <h5>Telefon: +998 55 901-54-34 </h5>
-                    <h6>Qabul kunlari: Dushanba - 1000 - 1200
-                        <br /> Chorshanba - 1000 - 1200</h6>
+                    <h2>Adilova Sayyora <br />
+                    Saypillayevna</h2>
+                    <h3>2-sonli bolalar musiqa va san’at maktabi direktori</h3>
+                    <h5>Telefon: +998 94 669 85-25</h5>
+                    <h6>Qabul kunlari: Seshanba - 1000 - 1200
+                        <br />Payshanba - 1500 - 1700</h6>
                 </div>
                </div>
             </div>
@@ -146,13 +145,13 @@ function maktab() {
                     <img className='img_small' src={SmallImgSecond} alt="" />
                </div>
                 <div className='small_text'>
-                    <h2>Olimjonov <br />
-                    Ilyosjon Ibroxim o‘g‘li</h2>
-                    <h3>34-sonli bolalar musiqa va san’at maktabi direktorining o‘quv-ma‘rifiy ishlar bo‘yicha o‘rinbosari</h3>
-                    <h5>Telefon: +998 55 901-54-34 </h5>
-                    <h6>Qabul kunlari: Seshanba - 1400 - 1600 <br />
+                    <h2>Usmanova Nadira<br />
+                    Mirzaxmatovna </h2>
+                    <h3>2-sonli bolalar musiqa va san’at maktabi xo’jalik ishlari bo’yicha direktor o’rinbosari</h3>
+                    <h5>Telefon: +998  95 082-14-02</h5>
+                    <h6>Qabul kunlari: Seshanba - 1000 - 1200<br />
 
-Payshanba - 1000 - 1200</h6>
+                    Payshanba - 1500 - 1700</h6>
                 </div>
                </div>
             </div>
@@ -164,31 +163,13 @@ Payshanba - 1000 - 1200</h6>
                     <img className='img_small' src={SmallImgThree} alt="" />
                </div>
                 <div className='small_text'>
-                    <h2>O‘tbosarov <br />
-                    Ilhom Ihtiyor o‘g‘li</h2>
-                    <h3>34-sonli bolalar musiqa va san’at maktabi direktorining xo‘jalik ishlari bo‘yicha o‘rinbosari</h3>
-                    <h5>Telefon: +998 55 901-54-34 </h5>
-                    <h6>Qabul kunlari: Chorshanba - 1000 - 1200 <br />
+                    <h2>Xodjayeva Luiza <br />
+                    Adilovna </h2>
+                    <h3>2-sonli bolalar musiqa va san’at maktabi bosh hisobchisi</h3>
+                    <h5>Telefon: +998 90 934-69-05</h5>
+                    <h6>Qabul kunlari: Seshanba - 1000 - 1200<br />
 
-Shanba - 1000 - 1200</h6>
-                </div>
-               </div>
-            </div>
-        </div>
-        <div className='container_box'>
-            <div className='small_boxx'>
-               <div className='small_box'>
-               <div className='small_img'>
-                    <img className='img_small' src={SmallImgFour} alt="" />
-               </div>
-                <div className='small_text'>
-                    <h2>Qambarov <br />
-                    Ijobiddin Paxmiddinovich</h2>
-                    <h3>34-sonli bolalar musiqa va san’at maktabi bosh hisobchisi</h3>
-                    <h5>Telefon: +998 55 901-54-34 </h5>
-                    <h6>Qabul kunlari: Seshanba - 1000 - 1200 <br />
-
-Payshanba - 1500 - 1700</h6>
+                    Payshanba - 1500 - 1700</h6>
                 </div>
                </div>
             </div>

@@ -106,7 +106,7 @@ function Asosiy() {
             <h4 className='bosh dsa'>Bosh sahifaga qaytish</h4>
         </Link>
  <div class="main__info">
-            <h2>BMSM to‘g‘risida asosiy ma’lumotlar</h2>
+            {/* <h2>BMSM to‘g‘risida asosiy ma’lumotlar</h2>
             <p class="main__text">Ta’lim muassasasi tashkil etilgan yil: <strong>2021-yil</strong></p>
             <p class="main__text">Ta’lim muassasasining to‘liq nomi:<strong>Toshkent viloyati Madaniyat boshqarmasi tasarrufidagi  Parkent tumani 34-sonli bolalar musiqa va san’at maktabi</strong></p>
             <p class="main__text">Ta’lim muassasasining qisqartirilgan nomi: <strong> Parkent tumani 34-sonli BMSM</strong></p>
@@ -123,7 +123,29 @@ function Asosiy() {
             <p class="main__text">BMSM direktorining o‘quv-ma’rifiy ishlar bo‘yicha o‘rinbosari: <strong>  Olimjonov Ilyosjon Ibroxim o‘g‘li</strong></p>   
             <p class="main__text">BMSM direktorining xo‘jalik ishlari bo‘yicha o‘rinbosari: <strong>  O‘tbosarov Ilxom Ixtiyor o‘g‘li</strong></p>
             <p class="main__text">Aloqa telefoni: <a href="tel:+998931959127"><strong>(+998) 93-195-91-27, 93-166-66-99</strong></a></p>
-            <p class="main__text">Elektron pochta manzili: <a href="mailto:sanatmaktabi@mail.ru"><strong>bmsm34tv@gmail.com</strong></a></p>
+            <p class="main__text">Elektron pochta manzili: <a href="mailto:sanatmaktabi@mail.ru"><strong>bmsm34tv@gmail.com</strong></a></p> */}
+                <h3 className='h4'>BMSM to‘g‘risida asosiy ma’lumotlar <br /></h3>
+            <p className='main__text'>
+            Ta’lim muassasasi tashkil etilgan yil: <strong>1956-yil</strong> <br />
+            Ta’lim muassasasining to‘liq nomi: <strong>Toshkent shahar Madaniyat boshqarmasi tasarrufidagi Mirzo Ulug’bek tumani 2-sonli bolalar musiqa va san’at maktabi</strong> <br />
+            Ta’lim muassasasining qisqartirilgan nomi: <strong> Mirzo Ulug’bek tumani 2-sonli BMSM </strong><br />
+            Ta’lim muassasasining muassisi: Toshkent shahar Madaniyat boshqarmasi <br />
+
+            Ta’lim muassasasining yuqori organi: <strong>Toshkent shahar Madaniyat boshqarmasi</strong>
+            <br />
+            Ta’lim turiga tegishliligi: <strong> Maktabdan tashqari ta’lim muassasasi </strong><br />
+            Ta’lim faoliyati yo‘nalishi: <strong> Musiqa va san’at </strong><br />
+            Ta’lim muassasasining identifikatsiya raqami (STIR): <strong> 206477267</strong> <br />
+            Ta’lim muassasasining manzili: <strong>Toshkent shahar, Mirzo Ulug’bek tumani, Sayram MFY, Sayram ko’chasi 19-uy</strong> <br />
+            Mo‘ljal: Bo’z bozor
+            Ta’lim muassasasi ma’muriyatining ish kuni tartibi: <strong>soat 9.00 dan 18.00 gacha, tushlik 13.00 dan 14.00 gacha </strong><br />
+            Ta’lim muassasasining ish kuni tartibi: <strong>6 kunlik o‘quv haftasi </strong><br />
+            BMSM direktori: <strong>Adilova Sayyora Saypillayevna </strong><br />
+            BMSM direktorining o‘quv-ma’rifiy ishlar bo‘yicha o‘rinbosari: <strong> vakant  </strong><br />
+            BMSM direktorining xo‘jalik ishlari bo‘yicha o‘rinbosari: <strong>Usmanova Nadira Mirzaxmatovna </strong><br />
+            Aloqa telefoni: <strong>(+998) 71-268-59-51 </strong><br />
+            Elektron pochta manzili: <strong>musiqamaktabi95@gmail.ru </strong><br />
+            </p>
          
             <h2>Ta’lim yo‘nalishlari</h2>
                 <table class="main__table">                

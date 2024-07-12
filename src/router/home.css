@@ -989,3 +989,17 @@ th {
 .silider_desc{
     font-size: 14px;
 }
+.main__text{
+    margin-left: -50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main__text strong{
+    margin-bottom: 10px;
+}
+.h4{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
